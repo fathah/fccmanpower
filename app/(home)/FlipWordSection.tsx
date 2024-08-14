@@ -6,11 +6,15 @@ export function FlipWordsSection() {
 
 
   return (
-    <div className="bg-gbg py-36 flex justify-center items-center px-4 ">
-      <div className="text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-      Providing
-        <FlipWords words={words} /> <br />
-        manpower with FCC      </div>
+    <div className="relative bg-gbg py-36 flex justify-center items-center px-4 overflow-hidden">
+      <div data-aos="zoom-in" className="absolute ">
+      <img src="/images/bdng2.png" className="opacity-10"  alt="" />
+
+      </div>
+      <div className="text-3xl lg:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400" 
+      data-aos="fade-up">
+    Premier partner <div className="block lg:hidden"></div>for<FlipWords words={words} /> <br />
+        manpower solutions <div className="block lg:hidden"></div>in the UAE</div>
     </div>
   );
 }

@@ -4,33 +4,33 @@ import { IoMdMail } from "react-icons/io";
 const Footer = () => {
     
     return (
-        <div className="bg-primaryDark py-6 text-white">
-            <section className="commonwidth grid lg:grid-cols-3 pt-8 pb-4">
+        <div className="bg-primaryDark py-2 text-white">
+            <section className="commonwidth grid lg:grid-cols-3 pt-20  gap-8 lg:gap-20">
                 <div>
                     <img src="/images/logo-w.png" className="h-10" alt="" />
-                    <div>
-
+                    <div className="py-2 text-sm opacity-80">
+                    Fajar Manpower provides comprehensive staffing solutions in the UAE. Offering skilled and unskilled labor with over three years of experience
                     </div>
                 </div>
                 <div>
                     <h6 className="flex items-center gap-x-3 mb-2"><FaSquarePhone className="text-3xl" />
-                    <div className="text-xl font-bold font-sans">+971 895 265 895</div>
+                    <div className="text-lg font-bold font-sans">+971 509 769 862</div>
                     </h6>
 
                     <h6 className="flex items-center gap-x-3"><IoMdMail className="text-3xl" />
-                    <div className="text-xl font-bold">info@fccmanpower.com</div>
+                    <div className="text-lg font-bold">info@fccmanpower.com</div>
                     </h6>
 
 
                 </div>
                 <div>
-                    <h6 className="font-bold">FCC Manpower LLC</h6>
-                    <p>Ithihad Building, Al Nahda,</p>
-                    <p>Dubai, United Arab Emirates</p>
+                    <h6 className="font-bold">FCC Manpower</h6>
+                    <p>Al Nahda, Sharja, UAE</p>
+                    <p>Po Box. 97378</p>
                 </div>
             </section>
             
-            <div className="fullcenter py-2 text-sm">
+            <div className="fullcenter py-5 mt-6 text-sm border-t border-white/20">
                 <a href="https://ziqx.cc">⚡ziqx.cc</a>
             </div>
         </div>

@@ -10,7 +10,7 @@ export function ContactForm() {
       <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-4xl font-black">
         Get in Touch
         </p>
-        <form className="py-5 lg:w-5/12">
+        <form className="py-5 w-full lg:w-5/12">
 <div><input type="text" className="homeinput " placeholder="Your Name" /></div>
 <div><input type="text" className="homeinput" placeholder="Contact" /></div>
 <div><input type="text" className="homeinput " placeholder="Message" /></div>

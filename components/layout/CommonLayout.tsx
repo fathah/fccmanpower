@@ -1,3 +1,4 @@
+import { FloatingMenu } from "./FloatMenu";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
@@ -5,6 +6,7 @@ const CommonLayout = (props:any) => {
     return (
         <div className="bg-primaryDark">
             <NavBar/>
+            
             <main className="min-h-screen overflow-x-hidden">
                 {props.children}
             </main>
