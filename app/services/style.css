@@ -1,0 +1,3 @@
+.grid-item{
+    @apply  p-6 border border-white/20 cursor-pointer   hover:ring-2 ring-primary duration-500;
+}
