@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const Clients = () => {
    
 
-    const CLIENTS = ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png",];
+    const CLIENTS = ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png",];
     return (
         <div className='bg-white py-14'>
         <h1 className='text-center text-2xl font-bold text-primary mb-8'>TRUSTED BY</h1>
