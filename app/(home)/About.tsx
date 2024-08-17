@@ -14,12 +14,12 @@ const AboutSection = () => {
                 <div className="flex flex-col justify-center pt-10">
                     <h1 className=" flex items-center gap-x-2 text-2xl font-bold"
                     data-aos="fade-up"
-                    ><Line /> About FCC</h1>
+                    ><Line /> About Us</h1>
                     <div className="opacity-80"
                      data-aos="fade-up"
                       data-aos-delay="300"
                     >
-                        At Fajar Al Faya Concrete Carpenter Cont. (FCC Manpower), we pride ourselves on delivering exceptional construction and carpentry services. With years of experience and a team of skilled professionals, we have established a reputation for excellence and reliability in the industry. Our commitment to quality, safety, and customer satisfaction sets us apart as a trusted partner for all your construction needs.
+                        At Fajar Al Faya Concrete Carpenter Cont., we pride ourselves on delivering exceptional construction and carpentry services. With years of experience and a team of skilled professionals, we have established a reputation for excellence and reliability in the industry. Our commitment to quality, safety, and customer satisfaction sets us apart as a trusted partner for all your construction needs.
                         <div className="mt-4">
                             <Link href={'/about'}
                                 className="link group"
