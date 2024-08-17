@@ -15,6 +15,22 @@ const Clients = () => {
 <Swiper
         spaceBetween={30}
         slidesPerView={5}
+        //responsive
+        breakpoints={{
+            320: {
+                slidesPerView: 2,
+            },
+            640: {
+                slidesPerView: 3,
+            },
+            768: {
+                slidesPerView: 4,
+            },
+            1024: {
+                slidesPerView: 5,
+            },
+           
+        }}
         centeredSlides={true}
         loop={true}
         autoplay={{
@@ -30,7 +46,11 @@ const Clients = () => {
       >
          {
                     CLIENTS.map((item, index) => {
-                        return (<SwiperSlide><img src={`/images/clients/${item}`} key={index} className="h-20" alt="" /></SwiperSlide>
+                        return (<SwiperSlide key={index} >
+                            <div className='flex justify-center'>
+                            <img src={`/images/clients/${item}`} key={index} className="h-20" alt="" />
+                            </div>
+                            </SwiperSlide>
                             
                         );
                     })
