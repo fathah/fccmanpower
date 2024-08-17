@@ -15,9 +15,7 @@ const Hero = () => {
                 <section className="grid lg:grid-cols-2 h-full commonwidth">
 
 <div className="text-white flex flex-col justify-center py-10 px-5 lg:px-0">
-    <div>
-    <img src="/images/logo-w.png" data-aos="fade-down" className="hidden lg:block h-16" alt="" />
-    </div>
+   
     <h1 className="text-4xl lg:text-5xl font-bold text-primary my-4"
     data-aos="fade-up"
     data-aos-delay="200"
