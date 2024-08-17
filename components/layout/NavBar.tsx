@@ -1,6 +1,7 @@
 "use client";
 
 import Hamburger from "hamburger-react";
+import { Link } from "lucide-react";
 import { useState } from "react";
 import { IoChevronForward } from "react-icons/io5";
 
@@ -22,7 +23,9 @@ const NavBar = () => {
 </div>
             <nav className="bg-gbg py-5 w-full ">
             <div className="commonwidth flex justify-between items-center">
+            <Link href={'/'}>
             <img src="/images/icon-w.png" className="h-12" alt="" />
+            </Link>
             <div className="hidden lg:flex">
             {
                     ITEMS.map((item, index) => {

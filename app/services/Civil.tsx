@@ -84,7 +84,7 @@ const CivilManpower = () => {
             <div  className="flex flex-col justify-center" data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-primary">Civil Manpower</h2>
                 <p>
-                At FCC Manpower, we provide comprehensive civil manpower services tailored to meet the diverse needs of our clients.
+                At Fajar Al Fayha Manpower, we provide comprehensive civil manpower services tailored to meet the diverse needs of our clients.
                  Our team consists of highly skilled professionals including civil engineers, supervisors, foremen, scaffolders, 
                  carpenters, masons, painters, and safety officers. We are committed to delivering exceptional quality and reliability 
                  in every project, ensuring your construction goals are met with precision and efficiency.

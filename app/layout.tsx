@@ -6,7 +6,7 @@ import AOSClient from "@/components/common/AOSClient";
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FCC Manpower",
+  title: "Fajar Al Fayha Manpower",
   description: "Talent Acquisition Made Simple",
 };
 

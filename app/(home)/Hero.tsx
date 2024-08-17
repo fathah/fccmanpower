@@ -27,7 +27,7 @@ const Hero = () => {
         data-aos="fade-up"
         data-aos-delay="500"
         className="text-sm mb-4"
-        >FCC Manpower connects skilled professionals with exceptional career opportunities. Our commitment to quality service ensures a seamless experience for both job seekers and employers. Join us in building a brighter future, one job at a time</p>
+        >Fajar Al Fayha Manpower connects skilled professionals with exceptional career opportunities. Our commitment to quality service ensures a seamless experience for both job seekers and employers. Join us in building a brighter future, one job at a time</p>
    
    <Link href={'/about'}
    className="link group">

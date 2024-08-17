@@ -44,7 +44,7 @@ const Electrical = () => {
             <div className="flex flex-col justify-center" data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-primary">Electrical Manpower</h2>
                 <p>
-                At FCC Manpower, we understand the critical importance of a secure and efficient electrical setup in today's 
+                At Fajar Al Fayha Manpower, we understand the critical importance of a secure and efficient electrical setup in today's 
                 fast-paced technological world. Our electrical manpower services are designed to meet your needs with a 
                 team of highly skilled professionals including electrical engineers, supervisors, foremen, and electricians. 
                 We ensure that your projects are completed with the highest standards of safety, reliability, and efficiency

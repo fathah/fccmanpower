@@ -61,7 +61,7 @@ const Mechanical = () => {
             <div className="flex flex-col justify-center" data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-primary">Mechanical Manpower</h2>
                 <p>
-                At FCC Manpower, our mechanical manpower services are designed to ensure the timely and successful 
+                At Fajar Al Fayha Manpower, our mechanical manpower services are designed to ensure the timely and successful 
                 completion of your projects. We provide a team of skilled professionals including fabricators, welders, 
                 fitters, and helpers. 
                 Our commitment to quality and efficiency guarantees that your mechanical needs are met with precision and expertise

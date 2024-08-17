@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <img src="/images/logo-w.png" className="h-10" alt="" />
                     <div className="py-2 text-sm opacity-80">
-                    Fajar Manpower provides comprehensive staffing solutions in the UAE. Offering skilled and unskilled labor with over three years of experience
+                    Fajar Al Fayha Manpower provides comprehensive staffing solutions in the UAE. Offering skilled and unskilled labor with over three years of experience
                     </div>
                 </div>
                 <div>
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <h6 className="font-bold">FCC Manpower</h6>
+                    <h6 className="font-bold">Fajar Al Fayha</h6>
                     <p>Al Nahda, Sharja, UAE</p>
                     <p>Po Box. 97378</p>
                 </div>
