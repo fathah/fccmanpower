@@ -23,9 +23,9 @@ const NavBar = () => {
 </div>
             <nav className="bg-gbg py-5 w-full ">
             <div className="commonwidth flex justify-between items-center">
-            <Link href={'/'}>
+            <a href={'/'}>
             <img src="/images/icon-w.png" className="h-12" alt="" />
-            </Link>
+            </a>
             <div className="hidden lg:flex">
             {
                     ITEMS.map((item, index) => {
