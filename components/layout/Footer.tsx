@@ -4,7 +4,7 @@ import { IoMdMail } from "react-icons/io";
 const Footer = () => {
     
     return (
-        <div className="bg-primaryDark py-2 text-white">
+        <div className="bg-black py-2 text-white">
             <section className="commonwidth grid lg:grid-cols-3 pt-20  gap-8 lg:gap-20">
                 <div>
                     <img src="/images/logo-w.png" className="h-10" alt="" />
