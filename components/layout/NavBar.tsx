@@ -17,14 +17,14 @@ const NavBar = () => {
     ];
     return (
         <main>
-<div className="absolute top-5 right-5 lg:hidden text-white">
+<div className="absolute top-4 right-5 lg:hidden text-white">
 <Hamburger  toggled={isOpen} toggle={setOpen} />
 
 </div>
             <nav className="bg-gbg py-5 w-full ">
             <div className="commonwidth flex justify-between items-center">
             <a href={'/'}>
-            <img src="/images/icon-w.png" className="h-12" alt="" />
+            <img src="/images/logo-w.png" className="h-10 lg:h-12" alt="" />
             </a>
             <div className="hidden lg:flex">
             {

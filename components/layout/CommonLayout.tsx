@@ -1,4 +1,3 @@
-import { FloatingMenu } from "./FloatMenu";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
