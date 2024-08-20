@@ -76,14 +76,15 @@ const CivilManpower = () => {
 
 
     return (
-        <main className="commonwidth">
-             <section className="grid lg:grid-cols-2">
+        <main>
+            <section className="commonwidth">
+            <section className="grid lg:grid-cols-2">
              <div className="fullcenter" data-aos="fade-up">
                 <img src="/images/civil.webp" className="w-8/12 rounded-2xl" alt="" />
             </div>
             <div  className="flex flex-col justify-center" data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-primary">Civil Manpower</h2>
-                <p>
+                <p className="text-black">
                 At Fajar Al Fayha Manpower, we provide comprehensive civil manpower services tailored to meet the diverse needs of our clients.
                  Our team consists of highly skilled professionals including civil engineers, supervisors, foremen, scaffolders, 
                  carpenters, masons, painters, and safety officers. We are committed to delivering exceptional quality and reliability 
@@ -95,13 +96,14 @@ const CivilManpower = () => {
            <section className="grid lg:grid-cols-4 gap-8 my-10">
             {
                 civilManpowerServices.map((item, index) => {
-                    return <div key={index} className="grid-item bg-black">
+                    return <div key={index} className="grid-item bg-white shadow-lg">
                         <div className="font-bold text-primary">{item.title}</div>
                         <p className="text-xs ">{item.description}</p>
                     </div>
                 })
             }
            </section>
+            </section>
         </main>
     );
 }

@@ -71,7 +71,7 @@ const Mechanical = () => {
            <section className="grid lg:grid-cols-4 gap-8 my-10">
             {
                 mechanicalManpowerServices.map((item, index) => {
-                    return <div key={index} className="grid-item bg-black">
+                    return <div key={index} className="grid-item bg-white shadow-lg">
                         <div className="font-bold text-primary">{item.title}</div>
                         <p className="text-xs ">{item.description}</p>
                     </div>

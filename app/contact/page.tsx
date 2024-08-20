@@ -5,13 +5,14 @@ import { IoMdMail } from "react-icons/io";
 const ContactUs = () => {
     return (
         <CommonLayout>
-            <main className="commonwidth py-10 text-white">
+            <main className="bg-primary/5">
+            <section className="commonwidth py-10 ">
                 <h1 className="text-3xl font-bold text-primary">Keep in Touch</h1>
                 <section className="grid lg:grid-cols-2 gap-8">
 
                     {/* --------------- CONTACT DETAILS ---------------- */}
                     <div className="text-lg">
-                        <img src="/images/logo-w.png" className="h-12 mt-10 mb-3" alt="" />
+                        <img src="/images/logo.png" className="h-12 mt-10 mb-3" alt="" />
                         <p>Al Nahda, Sharja, UAE</p>
                         <p>Po Box. 97378</p>
 
@@ -43,6 +44,7 @@ const ContactUs = () => {
 
                     </div>
                 </section>
+            </section>
             </main>
         </CommonLayout>
     );

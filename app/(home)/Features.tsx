@@ -17,15 +17,16 @@ const Features = () => {
        
     ];
     return (
-        <section className="pt-10 pb-20">
+        <section className="pt-10 pb-20 bg-primary bg-opacity-10">
             <h1 className="text-3xl font-bold text-center text-primary mb-8">Services We Offer</h1>
             <div className="commonwidth grid lg:grid-cols-3 gap-8 ">
             {
                 ITEMS.map((item, index) => {
                     return (
-                        <CardSpotlight key={index} className="cursor-pointer text-white"
+                        <CardSpotlight key={index} className="cursor-pointer hover:ring-2 ring-primary"
                         data-aos="fade-up"
                         data-aos-delay={150*index}
+                        radius={30}
                         >
                             <section className="relative z-50">
                             <div className="text-5xl mb-1 text-primary">

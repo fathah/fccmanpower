@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const CommonLayout = (props:any) => {
     return (
-        <div className="bg-primaryDark">
+        <div className="">
             <NavBar/>
             
             <main className="min-h-screen overflow-x-hidden">

@@ -33,7 +33,8 @@ const AboutPage = () => {
     return (
         <CommonLayout>
             
-            <section className="commonwidth grid lg:grid-cols-2 text-white relative overflow-hidden">
+           <div className="bg-primary bg-opacity-10 ">
+           <section className="commonwidth grid lg:grid-cols-2 relative overflow-hidden">
                 <div>
                     <img src="/images/bdng.png" className="absolute opacity-20" alt="" />
                     <img src="/images/man2.png" data-aos="fade-up" alt="" />
@@ -44,7 +45,7 @@ const AboutPage = () => {
                 data-aos-delay="200"
                 >
                 <div className="flex items-center gap-x-2 text-lg"><Line/> About</div>
-                    <h1 className="text-4xl font-bold text-white">
+                    <h1 className="text-4xl font-bold ">
                        
                     <span className="text-primary">
                     Fajar Al Faya 
@@ -58,13 +59,14 @@ const AboutPage = () => {
                     </div>
                 </div>
             </section>
+           </div>
 
-            <section className="bg-black text-white">
+            <section className="">
                 <div className="commonwidth py-20 grid lg:grid-cols-3 gap-8">
                     {
                         aboutGridContent.map((item, index) => {
                             return <div key={index} 
-                            className="bg-gbg p-6 border border-white/20 cursor-pointer hover:scale-105 duration-500">
+                            className=" p-6 border bg-primary/10 cursor-pointer hover:scale-105 duration-500">
                                 <h1 className="font-bold text-xl text-primary">{item.title}</h1>
                                 <p className="text-sm">
                                     {item.description}

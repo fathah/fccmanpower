@@ -14,14 +14,14 @@ const NavBar = () => {
         { name: "Services", to: "/services" },
         { name: "Contact Us", to: "/contact" },
     ];
-    
+
     return (
         <main>
-            <div className="absolute top-4 right-5 lg:hidden text-white">
+            <div className="absolute top-4 right-5 lg:hidden ">
                 <Hamburger toggled={isOpen} toggle={setOpen} />
 
             </div>
-            <nav className="bg-gbg py-5 w-full ">
+            <nav className="bg-white py-5 w-full ">
                 <div className="commonwidth flex justify-between items-center">
                     <a href={'/'}>
                         <img src="/images/manpowerlogo.png" className="h-10 lg:h-12" alt="" />
@@ -30,13 +30,14 @@ const NavBar = () => {
                         {
                             ITEMS.map((item, index) => {
                                 return (
-                                    <a href={item.to} key={index} className="text-white mx-3 hover:text-primary">{item.name}</a>
+                                    <a href={item.to} 
+                                    key={index} 
+                                    className=" mx-3 hover:text-primary border-b-2 border-transparent hover:border-primary duration-300  ">{item.name}</a>
                                 );
                             })
                         }
                     </div>
                 </div>
-
             </nav>
 
             {/* MOBILE MENU */}
@@ -74,7 +75,6 @@ const NavBar = () => {
                             <div className="text-sm opacity-50">Contact Us</div>
                             <a href="tel:+971509769862" className="text-lg font-bold font-sans">+971 509 769 862</a>
                         </footer>
-
                     </section>
                 </div>
             }

@@ -33,7 +33,7 @@ const Electrical = () => {
 
 
     return (
-        <main className="py-16 bg-black">
+        <main className="py-16 bg-white">
             <div className="commonwidth">
 
           
@@ -43,7 +43,7 @@ const Electrical = () => {
             </div>
             <div className="flex flex-col justify-center" data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-primary">Electrical Manpower</h2>
-                <p>
+                <p className="text-black">
                 At Fajar Al Fayha Manpower, we understand the critical importance of a secure and efficient electrical setup in today's 
                 fast-paced technological world. Our electrical manpower services are designed to meet your needs with a 
                 team of highly skilled professionals including electrical engineers, supervisors, foremen, and electricians. 
@@ -55,7 +55,7 @@ const Electrical = () => {
            <section className="grid lg:grid-cols-4 gap-8 my-10">
             {
                 electricalManpowerServices.map((item, index) => {
-                    return <div key={index} className="grid-item bg-primaryDark">
+                    return <div key={index} className="grid-item bg-primary/15 shadow-lg">
                         <div className="font-bold text-primary">{item.title}</div>
                         <p className="text-xs ">{item.description}</p>
                     </div>

@@ -5,8 +5,8 @@ import { IoArrowForwardSharp } from "react-icons/io5";
 
 const AboutSection = () => {
     return (
-        <CardSpotlight radius={350} className=" overflow-hidden">
-            <section className="commonwidth py-10 lg:py-20 grid lg:grid-cols-2 text-white relative   z-50 ">
+        <CardSpotlight radius={50} className=" overflow-hidden">
+            <section className="commonwidth py-10 lg:py-20 grid lg:grid-cols-2  relative   z-50 ">
                 <div data-aos="fade-right">
                     <img src="/images/bdng.png" className="w-10/12" alt="" />
                 </div>
