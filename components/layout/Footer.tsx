@@ -23,10 +23,21 @@ const Footer = () => {
 
 
                 </div>
-                <div>
+                <div className="grid lg:grid-cols-2 gap-8">
+                    <div>
                     <h6 className="font-bold">Fajar Al Fayha</h6>
                     <p>Al Nahda, Sharja, UAE</p>
                     <p>Po Box. 97378</p>
+                    </div>
+                    <div>
+                    <h6 className="font-bold">Fajar Manpower</h6>
+                    <p>Al Garhoud 102, Dubai, UAE</p>
+                    <p>+971 58 553 7862 </p>
+                    
+
+
+                    </div>
+                    
                 </div>
             </section>
             

@@ -5,7 +5,7 @@ import { IoMdMail } from "react-icons/io";
 const ContactUs = () => {
     return (
         <CommonLayout>
-            <main className="bg-primary/5">
+            <main className="">
             <section className="commonwidth py-10 ">
                 <h1 className="text-3xl font-bold text-primary">Keep in Touch</h1>
                 <section className="grid lg:grid-cols-2 gap-8">
@@ -25,7 +25,12 @@ const ContactUs = () => {
                                 <div className="text-lg font-bold">info@fccmanpower.com</div>
                             </h6>
                         </section>
-
+                       <section className="text-xl mt-5 border-t pt-4">
+                       <h6 className="font-bold">Our Sister Concern</h6>
+                        <div>
+                            <img src="/images/sister.png" className="w-5/12" alt="" />
+                        </div>
+                       </section>
 
                     </div>
 

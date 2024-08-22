@@ -32,7 +32,8 @@ const NavBar = () => {
                                 return (
                                     <a href={item.to} 
                                     key={index} 
-                                    className=" mx-3 hover:text-primary border-b-2 border-transparent hover:border-primary duration-300  ">{item.name}</a>
+                                    className=" mx-3 hover:text-primary border-b-2 border-transparent
+                                     hover:border-primary duration-300  ">{item.name}</a>
                                 );
                             })
                         }
