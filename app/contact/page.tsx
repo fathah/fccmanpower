@@ -27,8 +27,16 @@ const ContactUs = () => {
                         </section>
                        <section className="text-xl mt-5 border-t pt-4">
                        <h6 className="font-bold">Our Sister Concern</h6>
-                        <div>
-                            <img src="/images/sister.png" className="w-5/12" alt="" />
+                        <div className="py-3">
+                            <img src="/images/fajar-man.png" className="w-5/12" alt="" />
+                            <p>Al Garhoud 102,</p>
+                        <p>Dubai, UAE</p>
+                        <h6 className="flex items-center gap-x-3 mb-2"><FaSquarePhone className="text-3xl" />
+                                <div className="text-lg font-bold font-sans">+971 58 553 7862
+
+</div>
+                            </h6>
+
                         </div>
                        </section>
 
