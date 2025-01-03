@@ -26,8 +26,10 @@ const Footer = () => {
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div>
                     <h6 className="font-bold">Fajar Al Fayha</h6>
-                    <p>Al Nahda, Sharja, UAE</p>
-                    <p>Po Box. 97378</p>
+                    <p>Jasim Almidfa Building - 205</p>
+                        <p>Kuwait Square, Maysaloon </p>
+                        <p>Al Sharq, Sharjah, UAE</p>
+                        <p>065 481 813</p>
                     </div>
                     <div>
                     <h6 className="font-bold">Fajar Manpower</h6>
